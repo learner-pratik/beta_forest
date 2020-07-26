@@ -157,6 +157,7 @@ public class MqttService extends Service {
                     List<String> list = new ArrayList<>();
                     list.add(values[1]);
                     list.add(values[2]);
+                    list.add(values[3]);
 
                     Log.d(TAG, topic);
                     if (topic.equals("forest/hunter")) {

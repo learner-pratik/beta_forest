@@ -21,6 +21,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.lang.reflect.Method;
+import java.net.InetAddress;
 import java.util.List;
 import java.util.Map;
 
@@ -47,6 +48,9 @@ public class HomeActivity extends AppCompatActivity {
     public static Intent internetService;
     public static Intent mqttService;
     public static Intent forestService;
+    public static boolean internetServiceFlag = false;
+    public static boolean mqttServiceFlag = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,31 +77,6 @@ public class HomeActivity extends AppCompatActivity {
             getCurrentLocation();
         } else {
             requestPermission();
-        }
-
-        if (wifiManager.isWifiEnabled()) {
-            if (isNetworkAvailable()) {
-                mqttflag = false;
-                startService(new Intent(getApplicationContext(), InternetService.class));
-            } else {
-                if (isMobileDataEnabled() && isNetworkAvailable()) {
-                    mqttflag = false;
-                    Toast.makeText(this, "Using Mobile Data", Toast.LENGTH_SHORT).show();
-                    startService(new Intent(getApplicationContext(), InternetService.class));
-                } else {
-                    mqttflag = true;
-                    startService(new Intent(getApplicationContext(), MqttService.class));
-                    startService(new Intent(getApplicationContext(), ForestService.class));
-                }
-            }
-        } else {
-            Log.d(TAG,"home toast called");
-            Toast.makeText(this, "Wifi is disabled. Enable Wifi", Toast.LENGTH_SHORT).show();
-            if (isMobileDataEnabled() && isNetworkAvailable()) {
-                Toast.makeText(this, "Using Mobile Data", Toast.LENGTH_SHORT).show();
-                mqttflag = false;
-                startService(new Intent(getApplicationContext(), InternetService.class));
-            }
         }
 
         cvTask.setOnClickListener(new View.OnClickListener() {
@@ -139,28 +118,6 @@ public class HomeActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         unregisterReceiver(broadcastReceiver);
-    }
-
-    private boolean isNetworkAvailable() {
-        ConnectivityManager connectivityManager
-                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
-        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
-    }
-
-    private boolean isMobileDataEnabled() {
-        boolean mobileDataEnabled = false; // Assume disabled
-        try {
-            Class cmClass = Class.forName(connectivityManager.getClass().getName());
-            Method method = cmClass.getDeclaredMethod("getMobileDataEnabled");
-            method.setAccessible(true); // Make the method callable
-            // get the setting for "mobile data"
-            mobileDataEnabled = (Boolean)method.invoke(connectivityManager);
-        } catch (Exception e) {
-            // Some problem accessible private API
-            e.printStackTrace();
-        }
-        return mobileDataEnabled;
     }
 
     private void getCurrentLocation() {

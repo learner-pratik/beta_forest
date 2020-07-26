@@ -20,7 +20,7 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="0e55de820404" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="2844f0cf0204" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -62,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Object-Detection-Alert-Transmission/android" />
+    <property name="last_opened_file_path" value="$USER_HOME$/sih_forest_app" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
@@ -256,11 +256,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="882" y="180" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1593273187186" />
-    <state x="724" y="215" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595783617025">
+    <state x="724" y="215" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595796864315">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="484" y="155" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594742066013" />
-    <state x="724" y="215" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1595783617025" />
+    <state x="724" y="215" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1595796864315" />
     <state x="723" y="257" width="530" height="598" key="FileChooserDialogImpl/67.34.1853.1046@67.34.1853.1046" timestamp="1593241631598" />
     <state width="1807" height="154" key="GridCell.Tab.0.bottom" timestamp="1595785801497">
       <screen x="67" y="27" width="1853" height="1053" />

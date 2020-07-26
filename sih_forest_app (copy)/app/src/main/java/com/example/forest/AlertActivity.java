@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -77,9 +78,9 @@ public class AlertActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
             while(line != null){
-                Log.d("StackOverflow", line);
+                Log.d(TAG, line);
                 String[] values = line.split("/");
-                if (values.length == 3) {
+                if (values.length == 4) {
                     map1.add(Arrays.asList(values));
                 } else {
                     map2.add(Arrays.asList(values));
@@ -167,11 +168,13 @@ public class AlertActivity extends AppCompatActivity {
 
         for (Map.Entry<String, List<String>> set : map.entrySet()) {
             String s = set.getKey();
-            camera.add("Alert spotted at camera "+s);
+            List<String> t = set.getValue();
+            camera.add("Alert spotted at camera "+s+" at time "+ t.get(2));
         }
         for (Map.Entry<String, List<String>> set : map_c.entrySet()) {
             String s = set.getKey();
-            camera.add("Camera broken at camera "+s);
+            List<String> t = set.getValue();
+            camera.add("Camera broken at camera "+s+" at time "+t.get(2));
         }
         String[] camera_id = camera.toArray(new String[0]);
 
@@ -190,11 +193,13 @@ public class AlertActivity extends AppCompatActivity {
 
         for (List<String> strings : map1) {
             String s = strings.get(0);
-            camera.add("Alert spotted at camera "+s);
+            String t = strings.get(3);
+            camera.add("Alert spotted at camera "+s+" at time "+t);
         }
         for (List<String> strings : map2) {
             String s = strings.get(0);
-            camera.add("Camera broken at camera "+s);
+            String t = strings.get(3);
+            camera.add("Camera broken at camera "+s+" at time "+t);
         }
         String[] camera_id = camera.toArray(new String[0]);
 
