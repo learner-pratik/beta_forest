@@ -57,6 +57,9 @@ public class AlertActivity extends AppCompatActivity {
     }
 
     private void readFromFile() {
+        map1.clear();
+        map2.clear();
+
         folder = new File(getFilesDir()+"/forest");
         file = new File(folder.getAbsolutePath()+"/alert.txt");
 

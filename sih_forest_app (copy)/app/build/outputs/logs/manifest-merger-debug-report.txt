@@ -1,445 +1,449 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-MERGED from [androidx.multidex:multidex:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/1cc324bca91cb281f85c4c1528b9e48b/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:2:1-21:12
-MERGED from [com.google.android.material:material:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:2:1-26:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/c7b6252082af7c3db8c761dc5fc777cc/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton.timber:timber:4.7.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/404de3911c2eb4e85300b594c7e20f46/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.volley:volley:1.1.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/527c2aced8e156fdbb1ad66b2f4ec0ca/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/6b22d0aba6ac7befe42add84c9e45db8/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/5231f5585b0612674f3e97d28795c269/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:2:1-29:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/65dd1f61eb626c58708eaa75e35014ba/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/52ef9db1c0322222b8c6b52f7d7fc8cf/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0a2fd64f6a67ae3db4cd694a3b67c6f0/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/288122745ec326772840490d5c3b8319/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/12b3e9f7059661c3dea9fb5807dbeb41/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/fb6910351ac629e45f230c56b7e8097a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a1fc0b2adf82a6164581ef54edf18c2a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b8218be3342096e0f8fa79ecbd3bd4d7/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/31792b341daae454da09525b8d30698b/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/003c70b5e5c4b027fa5ab695274393a6/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d65c7c0a7ba55a4857cf48f246bb8a5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/63dc7281b28d3984b9dea3e23b7efd26/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d24ed17ccd340ddc444ab325a8c92316/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e89421607d3c369be15ff4fb75f4acad/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bfb6309893de74cbe239f31c68c10388/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/7ad6d3318b5b50a568488e704fd48ec9/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/23efeaea9ad0d45302c6f534d3b29411/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/fca13ad2738c8e8d0f18f8babb0b2876/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/468ce79092f15593026d29383e329c87/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b55ae32354d6a01c1a54b392cc10599e/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/f0ac2a258fe9da3013fd9e5b34e16297/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e680c5c7631a13b48d828ea32abc006e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a01cfd72e4073a36af210066f7659e03/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/eff3b887575ba11b32853a4f6c021ff5/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a52531d23a1135e41720b4b267ad65da/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/db53beac5b230480e4157a5f013406a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/f4b9dda930b9a3b046af42c8be968aa9/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/71a91af4f563d81756b435a801f10429/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
-MERGED from [io.grpc:grpc-android:1.21.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/1cc324bca91cb281f85c4c1528b9e48b/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.material:material:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/c7b6252082af7c3db8c761dc5fc777cc/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/afcddef254fedcd6e1bffd9fe522962e/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.1.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/a0ac517b8c45ff090052175a12dc77b3/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/6b22d0aba6ac7befe42add84c9e45db8/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/5231f5585b0612674f3e97d28795c269/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/65dd1f61eb626c58708eaa75e35014ba/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/52ef9db1c0322222b8c6b52f7d7fc8cf/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0a2fd64f6a67ae3db4cd694a3b67c6f0/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/288122745ec326772840490d5c3b8319/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/12b3e9f7059661c3dea9fb5807dbeb41/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/fb6910351ac629e45f230c56b7e8097a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a1fc0b2adf82a6164581ef54edf18c2a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b8218be3342096e0f8fa79ecbd3bd4d7/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/31792b341daae454da09525b8d30698b/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/003c70b5e5c4b027fa5ab695274393a6/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d65c7c0a7ba55a4857cf48f246bb8a5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/63dc7281b28d3984b9dea3e23b7efd26/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d24ed17ccd340ddc444ab325a8c92316/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e89421607d3c369be15ff4fb75f4acad/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bfb6309893de74cbe239f31c68c10388/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/7ad6d3318b5b50a568488e704fd48ec9/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/23efeaea9ad0d45302c6f534d3b29411/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/fca13ad2738c8e8d0f18f8babb0b2876/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/468ce79092f15593026d29383e329c87/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b55ae32354d6a01c1a54b392cc10599e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/f0ac2a258fe9da3013fd9e5b34e16297/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e680c5c7631a13b48d828ea32abc006e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a01cfd72e4073a36af210066f7659e03/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/eff3b887575ba11b32853a4f6c021ff5/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a52531d23a1135e41720b4b267ad65da/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/db53beac5b230480e4157a5f013406a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/f4b9dda930b9a3b046af42c8be968aa9/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/71a91af4f563d81756b435a801f10429/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:3:5-33
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-48:12
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:5:5-34:19
-MERGED from [com.google.android.material:material:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:16:5-24:19
-MERGED from [com.jakewharton.timber:timber:4.7.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
-MERGED from [com.jakewharton.timber:timber:4.7.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
-MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/404de3911c2eb4e85300b594c7e20f46/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:11:5-12:19
-MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/404de3911c2eb4e85300b594c7e20f46/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.volley:volley:1.1.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/527c2aced8e156fdbb1ad66b2f4ec0ca/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/527c2aced8e156fdbb1ad66b2f4ec0ca/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:17:5-27:19
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:17:5-27:19
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:5:5-36:19
+MERGED from [com.google.android.material:material:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:16:5-24:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/afcddef254fedcd6e1bffd9fe522962e/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/afcddef254fedcd6e1bffd9fe522962e/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.volley:volley:1.1.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/a0ac517b8c45ff090052175a12dc77b3/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/a0ac517b8c45ff090052175a12dc77b3/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:17:5-27:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:17:5-27:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:9:9-31
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:9:9-31
 	android:roundIcon
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:12:9-40
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:6:9-38
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:6:9-38
 activity#com.example.forest.AlertMap
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:9-55
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:9-55
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:19-43
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:19-43
 activity#com.example.forest.Prediction
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:9-48
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:9-48
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:19-45
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:19-45
 activity#com.example.forest.MainActivity
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:9-50
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:9-50
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:19-47
 activity#com.example.forest.LocationActivity
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:9-54
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:9-54
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:19-51
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:19-51
 activity#com.example.forest.TaskActivity
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:9-50
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:9-50
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:19-47
 activity#com.example.forest.MapActivity
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:9-49
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:9-49
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:19-46
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:19-46
 activity#com.example.forest.HomeActivity
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:9-50
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:9-50
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:19-47
 activity#com.example.forest.AlertActivity
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:9-21:51
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:9-21:51
 	android:screenOrientation
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:21:13-49
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:21:13-49
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:19-48
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:19-48
 activity#com.example.forest.SplashActivity
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:9-28:20
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:19-49
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.example.forest.WifiBroadcastReceiver
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:29:9-59
+	android:name
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:29:19-56
 service#org.eclipse.paho.android.service.MqttService
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:30:9-88
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:9-88
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:30:18-77
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:18-77
 service#com.example.forest.MqttService
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:9-56
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:9-56
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:18-45
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:18-45
 service#com.example.forest.ForestService
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:9-58
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:9-58
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:18-47
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:18-47
 service#com.example.forest.InternetService
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:9-60
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:34:9-60
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:18-49
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:34:18-49
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:35:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:14:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:14:5-76
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:35:22-73
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:36:5-76
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:5-76
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:36:22-73
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:13:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:13:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:13:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:11:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:11:5-79
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:17:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:22-76
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:22-76
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:5-79
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:5-79
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:22-76
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:5-81
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:5-81
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:22-78
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:5-68
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:5-68
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:5-68
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:22-65
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:22-65
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:5-75
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:5-75
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:22-72
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:22-72
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:5-81
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:5-81
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:22-78
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:5-66
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:45:5-66
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:22-63
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:45:22-63
 uses-permission#android.permission.INTERNET
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:16:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:16:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:14:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:15:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:15:5-67
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:16:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:14:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:22-64
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:19:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:19:5-79
+ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:48:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:19:5-79
 	android:name
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:22-76
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:48:22-76
 uses-sdk
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-MERGED from [androidx.multidex:multidex:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/1cc324bca91cb281f85c4c1528b9e48b/multidex-2.0.0/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/1cc324bca91cb281f85c4c1528b9e48b/multidex-2.0.0/AndroidManifest.xml:20:5-43
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/c7b6252082af7c3db8c761dc5fc777cc/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/c7b6252082af7c3db8c761dc5fc777cc/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton.timber:timber:4.7.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton.timber:timber:4.7.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
-MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/404de3911c2eb4e85300b594c7e20f46/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/404de3911c2eb4e85300b594c7e20f46/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.volley:volley:1.1.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/527c2aced8e156fdbb1ad66b2f4ec0ca/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/527c2aced8e156fdbb1ad66b2f4ec0ca/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/6b22d0aba6ac7befe42add84c9e45db8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/6b22d0aba6ac7befe42add84c9e45db8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/5231f5585b0612674f3e97d28795c269/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/5231f5585b0612674f3e97d28795c269/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/65dd1f61eb626c58708eaa75e35014ba/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/65dd1f61eb626c58708eaa75e35014ba/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/52ef9db1c0322222b8c6b52f7d7fc8cf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/52ef9db1c0322222b8c6b52f7d7fc8cf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0a2fd64f6a67ae3db4cd694a3b67c6f0/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0a2fd64f6a67ae3db4cd694a3b67c6f0/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/288122745ec326772840490d5c3b8319/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/288122745ec326772840490d5c3b8319/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/12b3e9f7059661c3dea9fb5807dbeb41/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/12b3e9f7059661c3dea9fb5807dbeb41/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/fb6910351ac629e45f230c56b7e8097a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/fb6910351ac629e45f230c56b7e8097a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a1fc0b2adf82a6164581ef54edf18c2a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a1fc0b2adf82a6164581ef54edf18c2a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b8218be3342096e0f8fa79ecbd3bd4d7/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b8218be3342096e0f8fa79ecbd3bd4d7/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/31792b341daae454da09525b8d30698b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/31792b341daae454da09525b8d30698b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/003c70b5e5c4b027fa5ab695274393a6/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/003c70b5e5c4b027fa5ab695274393a6/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d65c7c0a7ba55a4857cf48f246bb8a5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d65c7c0a7ba55a4857cf48f246bb8a5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/63dc7281b28d3984b9dea3e23b7efd26/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/63dc7281b28d3984b9dea3e23b7efd26/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d24ed17ccd340ddc444ab325a8c92316/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d24ed17ccd340ddc444ab325a8c92316/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e89421607d3c369be15ff4fb75f4acad/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e89421607d3c369be15ff4fb75f4acad/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bfb6309893de74cbe239f31c68c10388/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/bfb6309893de74cbe239f31c68c10388/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/7ad6d3318b5b50a568488e704fd48ec9/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/7ad6d3318b5b50a568488e704fd48ec9/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/23efeaea9ad0d45302c6f534d3b29411/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/23efeaea9ad0d45302c6f534d3b29411/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/fca13ad2738c8e8d0f18f8babb0b2876/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/fca13ad2738c8e8d0f18f8babb0b2876/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/468ce79092f15593026d29383e329c87/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/468ce79092f15593026d29383e329c87/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b55ae32354d6a01c1a54b392cc10599e/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b55ae32354d6a01c1a54b392cc10599e/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/f0ac2a258fe9da3013fd9e5b34e16297/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/f0ac2a258fe9da3013fd9e5b34e16297/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e680c5c7631a13b48d828ea32abc006e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/e680c5c7631a13b48d828ea32abc006e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a01cfd72e4073a36af210066f7659e03/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a01cfd72e4073a36af210066f7659e03/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/eff3b887575ba11b32853a4f6c021ff5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/eff3b887575ba11b32853a4f6c021ff5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a52531d23a1135e41720b4b267ad65da/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/a52531d23a1135e41720b4b267ad65da/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/db53beac5b230480e4157a5f013406a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/db53beac5b230480e4157a5f013406a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/f4b9dda930b9a3b046af42c8be968aa9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/f4b9dda930b9a3b046af42c8be968aa9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/71a91af4f563d81756b435a801f10429/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/71a91af4f563d81756b435a801f10429/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.21.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.21.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/1cc324bca91cb281f85c4c1528b9e48b/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/1cc324bca91cb281f85c4c1528b9e48b/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b85b7e0481f3222852aee40ec4c0fa26/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/99263ae0355f528cdb252f81976d504b/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/c7b6252082af7c3db8c761dc5fc777cc/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/c7b6252082af7c3db8c761dc5fc777cc/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/8fda85c9b3238af3ca115c129c76d419/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/afcddef254fedcd6e1bffd9fe522962e/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.hudomju:swipe-to-dismiss-undo:1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/afcddef254fedcd6e1bffd9fe522962e/jetified-swipe-to-dismiss-undo-1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.1.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/a0ac517b8c45ff090052175a12dc77b3/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/a0ac517b8c45ff090052175a12dc77b3/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/6b22d0aba6ac7befe42add84c9e45db8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/6b22d0aba6ac7befe42add84c9e45db8/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/5231f5585b0612674f3e97d28795c269/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/5231f5585b0612674f3e97d28795c269/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/65dd1f61eb626c58708eaa75e35014ba/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/65dd1f61eb626c58708eaa75e35014ba/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/52ef9db1c0322222b8c6b52f7d7fc8cf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/52ef9db1c0322222b8c6b52f7d7fc8cf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0f531e27d36f966ff60e67ec864464e0/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0a2fd64f6a67ae3db4cd694a3b67c6f0/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0a2fd64f6a67ae3db4cd694a3b67c6f0/jetified-mapbox-android-gestures-0.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/288122745ec326772840490d5c3b8319/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/288122745ec326772840490d5c3b8319/jetified-mapbox-android-accounts-0.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bed8bb7b685b79ebbae3746d87edf572/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/12b3e9f7059661c3dea9fb5807dbeb41/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/12b3e9f7059661c3dea9fb5807dbeb41/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/43e96ce5530e990e72ac70f577748e00/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e72df5f558314f3918a68cfb5b706e43/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/fb6910351ac629e45f230c56b7e8097a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/fb6910351ac629e45f230c56b7e8097a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a1fc0b2adf82a6164581ef54edf18c2a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a1fc0b2adf82a6164581ef54edf18c2a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b8218be3342096e0f8fa79ecbd3bd4d7/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b8218be3342096e0f8fa79ecbd3bd4d7/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/31792b341daae454da09525b8d30698b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/31792b341daae454da09525b8d30698b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/003c70b5e5c4b027fa5ab695274393a6/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/003c70b5e5c4b027fa5ab695274393a6/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d65c7c0a7ba55a4857cf48f246bb8a5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d65c7c0a7ba55a4857cf48f246bb8a5d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/63dc7281b28d3984b9dea3e23b7efd26/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/63dc7281b28d3984b9dea3e23b7efd26/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d24ed17ccd340ddc444ab325a8c92316/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d24ed17ccd340ddc444ab325a8c92316/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e89421607d3c369be15ff4fb75f4acad/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e89421607d3c369be15ff4fb75f4acad/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bfb6309893de74cbe239f31c68c10388/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/bfb6309893de74cbe239f31c68c10388/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/7ad6d3318b5b50a568488e704fd48ec9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/7ad6d3318b5b50a568488e704fd48ec9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/23efeaea9ad0d45302c6f534d3b29411/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/23efeaea9ad0d45302c6f534d3b29411/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/fca13ad2738c8e8d0f18f8babb0b2876/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/fca13ad2738c8e8d0f18f8babb0b2876/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0b8086a4eb91a0b51b9c558c5af06d6e/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/468ce79092f15593026d29383e329c87/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/468ce79092f15593026d29383e329c87/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b55ae32354d6a01c1a54b392cc10599e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b55ae32354d6a01c1a54b392cc10599e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/f0ac2a258fe9da3013fd9e5b34e16297/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/f0ac2a258fe9da3013fd9e5b34e16297/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e680c5c7631a13b48d828ea32abc006e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/e680c5c7631a13b48d828ea32abc006e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a01cfd72e4073a36af210066f7659e03/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a01cfd72e4073a36af210066f7659e03/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/eff3b887575ba11b32853a4f6c021ff5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/eff3b887575ba11b32853a4f6c021ff5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a52531d23a1135e41720b4b267ad65da/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/a52531d23a1135e41720b4b267ad65da/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/db53beac5b230480e4157a5f013406a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/db53beac5b230480e4157a5f013406a6/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/f4b9dda930b9a3b046af42c8be968aa9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/f4b9dda930b9a3b046af42c8be968aa9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/71a91af4f563d81756b435a801f10429/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/71a91af4f563d81756b435a801f10429/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/0214fa84994ec33aad3e5780cc88a8ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:2.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/f90e9f905fd0925382dc904c8fe2da09/jetified-mapbox-android-core-2.0.1/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-		ADDED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
-		INJECTED from /home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		ADDED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:9:5-11:35
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:9:5-11:35
 	android:glEsVersion
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:10:9-41
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:10:9-41
 	android:required
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:11:9-32
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:11:9-32
 uses-feature#android.hardware.wifi
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:12:5-14:36
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:12:5-14:36
 	android:required
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:14:9-33
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:14:9-33
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:13:9-45
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:13:9-45
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:19:13-37
+		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:19:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:18:13-84
+		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:18:13-84
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+		ADDED from [com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
 provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
 	android:authorities
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
 	android:exported
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
 	android:initOrder
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
 service#com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
 	android:permission
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

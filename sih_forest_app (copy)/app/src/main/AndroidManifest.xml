@@ -26,11 +26,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WifiBroadcastReceiver" />
 
         <service android:name="org.eclipse.paho.android.service.MqttService"></service>
         <service android:name=".MqttService"></service>
         <service android:name=".ForestService"></service>
         <service android:name=".InternetService"></service>
+
     </application>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />

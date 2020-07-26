@@ -88,6 +88,7 @@ public class MqttService extends Service {
     @Override
     public int onStartCommand(final Intent intent, int flags, int startId) {
         // Let it continue running until it is stopped.
+        Log.d(TAG, "Mqtt service started");
 
         try {
             IMqttToken token = client.connect();
@@ -135,7 +136,8 @@ public class MqttService extends Service {
         client.setCallback(new MqttCallback() {
             @Override
             public void connectionLost(Throwable cause) {
-                Log.d(TAG, "connection lost");
+                Log.d(TAG, "mqtt connection lost");
+                mqttflag = false;
             }
 
             @Override
@@ -178,6 +180,16 @@ public class MqttService extends Service {
         });
 
         return START_STICKY;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        try {
+            client.disconnect();
+        } catch (MqttException e) {
+            e.printStackTrace();
+        }
     }
 
     private void sendNotification(String id) {
