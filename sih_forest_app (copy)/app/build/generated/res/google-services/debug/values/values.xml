@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">706763701801-r7jj8i09k7n98j527amls3nu7h0dh08t.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://forest-453a4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">706763701801</string>
+    <string name="google_api_key" translatable="false">AIzaSyCMasWvfn0uK60iLYjs5kd0EcIop8N-jbo</string>
+    <string name="google_app_id" translatable="false">1:706763701801:android:0fc76f82490c10b3b4a638</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCMasWvfn0uK60iLYjs5kd0EcIop8N-jbo</string>
+    <string name="google_storage_bucket" translatable="false">forest-453a4.appspot.com</string>
+    <string name="project_id" translatable="false">forest-453a4</string>
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "706763701801",
+    "firebase_url": "https://forest-453a4.firebaseio.com",
+    "project_id": "forest-453a4",
+    "storage_bucket": "forest-453a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706763701801:android:0fc76f82490c10b3b4a638",
+        "android_client_info": {
+          "package_name": "com.example.forest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706763701801-r7jj8i09k7n98j527amls3nu7h0dh08t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMasWvfn0uK60iLYjs5kd0EcIop8N-jbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706763701801-r7jj8i09k7n98j527amls3nu7h0dh08t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706763701801:android:331e2fd29c942265b4a638",
+        "android_client_info": {
+          "package_name": "com.example.gps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706763701801-r7jj8i09k7n98j527amls3nu7h0dh08t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMasWvfn0uK60iLYjs5kd0EcIop8N-jbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706763701801-r7jj8i09k7n98j527amls3nu7h0dh08t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

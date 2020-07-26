@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="forest/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/forest.iml" filepath="$PROJECT_DIR$/.idea/forest.iml" group="forest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/forest-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/forest-app.iml" group="forest/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sih_forest_app (copy)-forest.iml" filepath="$PROJECT_DIR$/.idea/modules/sih_forest_app (copy)-forest.iml" group="forest" />
+    </modules>
+  </component>
+</project>
