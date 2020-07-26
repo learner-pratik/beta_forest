@@ -6,194 +6,194 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+8-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
+9-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-11-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:5-76
-11-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:22-73
+11-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:5-76
+11-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:37:22-73
 12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-12-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:5-76
-12-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:22-73
+12-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:5-76
+12-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:38:22-73
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:5-79
-13-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:22-76
+13-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:5-79
+13-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:39:22-76
 14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-14-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:5-79
-14-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:22-76
+14-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:5-79
+14-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:40:22-76
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:5-81
-15-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:22-78
+15-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:5-81
+15-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:41:22-78
 16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:5-68
-16-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:22-65
+16-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:5-68
+16-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:42:22-65
 17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-17-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:5-75
-17-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:22-72
+17-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:5-75
+17-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:43:22-72
 18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-18-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:5-81
-18-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:22-78
+18-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:5-81
+18-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:44:22-78
 19    <uses-permission android:name="android.permission.VIBRATE" />
-19-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:45:5-66
-19-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:45:22-63
+19-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:45:5-66
+19-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:45:22-63
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:5-67
-20-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:22-64
+20-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:5-67
+20-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:46:22-64
 21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-21-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:48:5-79
-21-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:48:22-76
+21-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:48:5-79
+21-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:48:22-76
 22
 23    <uses-feature
-23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:9:5-11:35
+23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:9:5-11:35
 24        android:glEsVersion="0x00020000"
-24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:10:9-41
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:10:9-41
 25        android:required="true" />
-25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:11:9-32
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:11:9-32
 26    <uses-feature
-26-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:12:5-14:36
+26-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:12:5-14:36
 27        android:name="android.hardware.wifi"
-27-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:13:9-45
+27-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:13:9-45
 28        android:required="false" />
-28-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:14:9-33
+28-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/AndroidManifest.xml:14:9-33
 29
 30    <application
-30-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:5:5-36:19
+30-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:5:5-36:19
 31        android:name="com.example.forest.Appcontroller"
-31-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:6:9-38
+31-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:6:9-38
 32        android:allowBackup="true"
-32-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:7:9-35
+32-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:7:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:18-86
+33-->[androidx.core:core:1.1.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
-35-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:8:9-43
+35-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:8:9-43
 36        android:label="Forest"
-36-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:9:9-31
+36-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:9:9-31
 37        android:roundIcon="@mipmap/ic_launcher_round"
-37-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:10:9-54
+37-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:10:9-54
 38        android:supportsRtl="true"
-38-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:11:9-35
+38-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:11:9-35
 39        android:testOnly="true"
 40        android:theme="@style/AppTheme" >
-40-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:12:9-40
+40-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:12:9-40
 41        <activity android:name="com.example.forest.AlertMap" />
-41-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:9-55
-41-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:19-43
+41-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:9-55
+41-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:13:19-43
 42        <activity android:name="com.example.forest.Prediction" />
-42-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:9-48
-42-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:19-45
+42-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:9-48
+42-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:14:19-45
 43        <activity android:name="com.example.forest.MainActivity" />
-43-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:9-50
-43-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:19-47
+43-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:9-50
+43-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:15:19-47
 44        <activity android:name="com.example.forest.LocationActivity" />
-44-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:9-54
-44-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:19-51
+44-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:9-54
+44-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:16:19-51
 45        <activity android:name="com.example.forest.TaskActivity" />
-45-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:9-50
-45-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:19-47
+45-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:9-50
+45-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:17:19-47
 46        <activity android:name="com.example.forest.MapActivity" />
-46-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:9-49
-46-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:19-46
+46-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:9-49
+46-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:18:19-46
 47        <activity android:name="com.example.forest.HomeActivity" />
-47-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:9-50
-47-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:19-47
+47-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:9-50
+47-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:19:19-47
 48        <activity
-48-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:9-21:51
+48-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:9-21:51
 49            android:name="com.example.forest.AlertActivity"
-49-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:19-48
+49-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:20:19-48
 50            android:screenOrientation="portrait" />
-50-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:21:13-49
+50-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:21:13-49
 51        <activity android:name="com.example.forest.SplashActivity" >
-51-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:9-28:20
-51-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:19-49
+51-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:9-28:20
+51-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:22:19-49
 52            <intent-filter>
-52-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:23:13-27:29
+52-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:23:13-27:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:17-69
-53-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:25-66
+53-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:17-69
+53-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:24:25-66
 54
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:17-77
-55-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:27-74
+55-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:17-77
+55-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:26:27-74
 56            </intent-filter>
 57        </activity>
 58        <activity android:name="com.example.forest.WifiBroadcastReceiver" />
-58-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:29:9-59
-58-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:29:19-56
+58-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:29:9-59
+58-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:29:19-56
 59
 60        <service android:name="org.eclipse.paho.android.service.MqttService" />
-60-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:9-88
-60-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:18-77
+60-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:9-88
+60-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:31:18-77
 61        <service android:name="com.example.forest.MqttService" />
-61-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:9-56
-61-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:18-45
+61-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:9-56
+61-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:32:18-45
 62        <service android:name="com.example.forest.ForestService" />
-62-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:9-58
-62-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:18-47
+62-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:9-58
+62-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:33:18-47
 63        <service android:name="com.example.forest.InternetService" />
-63-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:34:9-60
-63-->/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:34:18-49
+63-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:34:9-60
+63-->/home/omkar/beta_forest/sih_forest_app (copy)/app/src/main/AndroidManifest.xml:34:18-49
 64        <service
-64-->[com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:17:9-23:19
+64-->[com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:17:9-23:19
 65            android:name="com.google.firebase.components.ComponentDiscoveryService"
-65-->[com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:18:13-84
+65-->[com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:18:13-84
 66            android:directBootAware="true"
-66-->[com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+66-->[com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 67            android:exported="false" >
-67-->[com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:19:13-37
+67-->[com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:19:13-37
 68            <meta-data
-68-->[com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+68-->[com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
 69                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-69-->[com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+69-->[com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
 70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[com.google.firebase:firebase-firestore:21.4.3] /home/pratik/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+70-->[com.google.firebase:firebase-firestore:21.4.3] /home/omkar/.gradle/caches/transforms-2/files-2.1/0ddcaf10dc5750388d9b46f51244da44/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
 71        </service>
 72
 73        <provider
-73-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
+73-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
 74            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
+74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
 75            android:authorities="com.example.forest.mapboxtelemetryinitprovider"
-75-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
+75-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
 76            android:exported="false"
-76-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
+76-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
 77            android:initOrder="100" />
-77-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
+77-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
 78
 79        <service
-79-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
+79-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
 80            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
-80-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
+80-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
 81            android:permission="android.permission.BIND_JOB_SERVICE" />
-81-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/pratik/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
+81-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /home/omkar/.gradle/caches/transforms-2/files-2.1/9730bce686c32c9cca11743462d4777d/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
 82
 83        <activity
-83-->[com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+83-->[com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-84-->[com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+84-->[com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 85            android:exported="false"
-85-->[com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+85-->[com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-86-->[com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+86-->[com.google.android.gms:play-services-base:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 87
 88        <provider
-88-->[com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+88-->[com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 89            android:name="com.google.firebase.provider.FirebaseInitProvider"
-89-->[com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+89-->[com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
 90            android:authorities="com.example.forest.firebaseinitprovider"
-90-->[com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+90-->[com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 91            android:exported="false"
-91-->[com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+91-->[com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
 92            android:initOrder="100" />
-92-->[com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+92-->[com.google.firebase:firebase-common:19.3.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 93
 94        <meta-data
-94-->[com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+94-->[com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 95            android:name="com.google.android.gms.version"
-95-->[com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+95-->[com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 96            android:value="@integer/google_play_services_version" />
-96-->[com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+96-->[com.google.android.gms:play-services-basement:17.0.0] /home/omkar/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 97    </application>
 98
 99</manifest>
