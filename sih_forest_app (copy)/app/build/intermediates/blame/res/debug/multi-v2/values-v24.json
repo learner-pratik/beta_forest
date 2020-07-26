@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/omkar/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "/home/pratik/.gradle/caches/transforms-2/files-2.1/95c27f1e561f59170f577bf124144243/appcompat-1.1.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

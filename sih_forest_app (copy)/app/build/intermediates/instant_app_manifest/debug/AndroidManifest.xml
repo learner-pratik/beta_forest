@@ -56,6 +56,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.forest.WifiBroadcastReceiver" />
 
         <service android:name="org.eclipse.paho.android.service.MqttService" />
         <service android:name="com.example.forest.MqttService" />

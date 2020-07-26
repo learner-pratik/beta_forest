@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/omkar/sih_forest_offline_map/sih_forest_app (copy)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
+            "outputFile": "/home/pratik/Github/beta_forest/sih_forest_app (copy)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "/home/omkar/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/res/values-he/values-he.xml",
+                    "source": "/home/pratik/.gradle/caches/transforms-2/files-2.1/ec8c2dd7fab629dad48964718d9b6ce0/jetified-mapbox-android-sdk-9.2.0/res/values-he/values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",

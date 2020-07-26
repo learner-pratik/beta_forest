@@ -84,6 +84,16 @@ public class ForestService extends Service {
         return START_STICKY;
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        try {
+            client.disconnect();
+        } catch (MqttException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void sendOfficerCoordinates() {
 
         final String officer_payload = String.valueOf(latitude)+","+String.valueOf(longitude);
