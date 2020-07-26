@@ -2,15 +2,9 @@ package com.example.forest;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.drawable.Drawable;
 import android.location.Location;
-import android.net.ConnectivityManager;
-import android.net.Network;
-import android.net.NetworkCapabilities;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -34,7 +28,6 @@ import com.mapbox.android.core.location.LocationEngineRequest;
 import com.mapbox.android.core.location.LocationEngineResult;
 import com.mapbox.android.core.permissions.PermissionsListener;
 import com.mapbox.android.core.permissions.PermissionsManager;
-import com.example.forest.R;
 import com.mapbox.mapboxsdk.Mapbox;
 import com.mapbox.mapboxsdk.location.LocationComponent;
 import com.mapbox.mapboxsdk.location.LocationComponentActivationOptions;
@@ -45,11 +38,9 @@ import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 import com.mapbox.mapboxsdk.maps.Style;
 
-import java.io.IOException;
+
 import java.lang.ref.WeakReference;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -65,25 +56,15 @@ import com.mapbox.geojson.Feature;
 import com.mapbox.geojson.FeatureCollection;
 import com.mapbox.geojson.Point;
 import com.example.forest.model.IssModel;
-import com.mapbox.mapboxsdk.Mapbox;
-import com.mapbox.mapboxsdk.camera.CameraUpdateFactory;
 import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
-import com.mapbox.mapboxsdk.maps.Style;
 import com.mapbox.mapboxsdk.style.layers.SymbolLayer;
 import com.mapbox.mapboxsdk.style.sources.GeoJsonSource;
 
 
 import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 import retrofit2.Call;
 
-import timber.log.Timber;
-
 import static com.example.forest.HomeActivity.animal_location_info;
-import static com.example.forest.HomeActivity.iflag;
 import static com.example.forest.HomeActivity.mqttflag;
 import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.iconAllowOverlap;
 import static com.mapbox.mapboxsdk.style.layers.PropertyFactory.iconIgnorePlacement;
@@ -234,7 +215,7 @@ public class MapActivity extends AppCompatActivity implements PermissionsListene
                     for (String value : entry.getValue()) {
                         value1 = value;
                         //Log.d("This is value value1 ", value1);
-                        if(iflag || !mqttflag){
+                        if(!mqttflag){
                             DocumentReference docRef = db.collection("animals").document("location");
                             docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
                                 @Override

@@ -5,21 +5,15 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import timber.log.Timber;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.Network;
-import android.net.NetworkCapabilities;
-import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.Toast;
+
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -27,10 +21,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -41,7 +32,6 @@ import java.util.Map;
 import java.util.Set;
 
 import static com.example.forest.HomeActivity.animal_info;
-import static com.example.forest.HomeActivity.iflag;
 import static com.example.forest.HomeActivity.mqttflag;
 
 
@@ -79,7 +69,7 @@ public class LocationActivity extends AppCompatActivity implements AdapterView.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
 
-        if(iflag || !mqttflag) {
+        if(!mqttflag) {
             FirebaseFirestore db = FirebaseFirestore.getInstance();
             db.collection("animals_list")
                     .get()
@@ -130,7 +120,7 @@ public class LocationActivity extends AppCompatActivity implements AdapterView.O
                 //send selected option from spinner as map to next activity
                 Intent a = new Intent(LocationActivity.this,MapActivity.class);
                 if(spin1.getSelectedItemPosition()==0){
-                    if(iflag || !mqttflag) {
+                    if(!mqttflag) {
                         HashMap<String, Object> copy = new HashMap<String, Object>(option);
                         a.putExtra("map", copy);
                     }
@@ -142,7 +132,7 @@ public class LocationActivity extends AppCompatActivity implements AdapterView.O
                 else{
                     if(spin2.getSelectedItemPosition()==0){
                         HashMap<String, Object> copy = new HashMap<String, Object>();
-                        if(iflag || !mqttflag) {
+                        if(!mqttflag) {
                             copy.put(spin1.getSelectedItem().toString(), option.get(spin1.getSelectedItem().toString()));
                         }
                         else{
@@ -172,7 +162,7 @@ public class LocationActivity extends AppCompatActivity implements AdapterView.O
                     spin2.setEnabled(true);
                     spin2.setClickable(true);
                     temp = parent.getSelectedItem().toString();
-                    if(iflag || !mqttflag) {
+                    if(!mqttflag) {
                         v = option.get(temp);
                         assert v != null;
                         varray = convertObjectToList(v);

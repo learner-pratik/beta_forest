@@ -28,7 +28,6 @@ public class HomeActivity extends AppCompatActivity {
     //Button btnMap,btnPrediction,btnTask;
     private static final String TAG = "HomeActivity";
 
-    public static boolean iflag = false;
     public static boolean mqttflag = false;
 
     private static final int PERMISSIONS_REQUEST = 1;
